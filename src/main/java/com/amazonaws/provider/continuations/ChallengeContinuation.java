@@ -3,8 +3,8 @@ package com.amazonaws.provider.continuations;
 import com.amazonaws.provider.CognitoUser;
 import com.amazonaws.provider.handlers.AuthenticationHandler;
 import com.amazonaws.provider.util.CognitoServiceConstants;
-import com.amazonaws.services.model.RespondToAuthChallengeRequest;
-import com.amazonaws.services.model.RespondToAuthChallengeResult;
+import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeRequest;
+import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeResult;
 
 import java.util.HashMap;
 import java.util.Map;

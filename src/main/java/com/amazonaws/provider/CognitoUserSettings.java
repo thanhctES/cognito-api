@@ -17,7 +17,7 @@
 
 package com.amazonaws.provider;
 
-import com.amazonaws.services.model.MFAOptionType;
+import com.amazonaws.services.cognitoidp.model.MFAOptionType;
 
 import java.util.ArrayList;
 import java.util.HashMap;

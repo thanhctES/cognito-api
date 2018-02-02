@@ -17,6 +17,7 @@
 
 package com.amazonaws.provider;
 
+import com.amazonaws.SDKGlobalConfiguration;
 import com.amazonaws.provider.tokens.CognitoAccessToken;
 import com.amazonaws.provider.tokens.CognitoIdToken;
 import com.amazonaws.provider.tokens.CognitoRefreshToken;

@@ -2,7 +2,7 @@ package com.amazonaws.provider.continuations;
 
 import com.amazonaws.provider.exceptions.CognitoParameterInvalidException;
 import com.amazonaws.provider.util.CognitoServiceConstants;
-import com.amazonaws.services.model.AttributeType;
+import com.amazonaws.services.cognitoidp.model.AttributeType;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -17,8 +17,9 @@
 
 package com.amazonaws.provider;
 
-import com.amazonaws.services.model.CodeDeliveryDetailsType;
-import com.amazonaws.services.model.MFAOptionType;
+
+import com.amazonaws.services.cognitoidp.model.CodeDeliveryDetailsType;
+import com.amazonaws.services.cognitoidp.model.MFAOptionType;
 
 /**
  * This class encapsulates all the information that represent where and in what form a verification

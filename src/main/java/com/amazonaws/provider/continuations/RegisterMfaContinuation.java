@@ -4,7 +4,7 @@ import com.amazonaws.provider.CognitoUser;
 import com.amazonaws.provider.exceptions.CognitoParameterInvalidException;
 import com.amazonaws.provider.handlers.AuthenticationHandler;
 import com.amazonaws.provider.util.CognitoServiceConstants;
-import com.amazonaws.services.model.RespondToAuthChallengeResult;
+import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeResult;
 import com.amazonaws.util.StringUtils;
 
 import java.util.Arrays;

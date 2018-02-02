@@ -21,7 +21,7 @@ import com.amazonaws.provider.CognitoUser;
 import com.amazonaws.provider.CognitoUserCodeDeliveryDetails;
 import com.amazonaws.provider.handlers.AuthenticationHandler;
 import com.amazonaws.provider.util.CognitoServiceConstants;
-import com.amazonaws.services.model.RespondToAuthChallengeResult;
+import com.amazonaws.services.cognitoidp.model.RespondToAuthChallengeResult;
 
 /**
  * This is a Continuation for multi-factor authentication.

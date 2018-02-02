@@ -2,8 +2,6 @@ package com.amazonaws.provider;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.auth.AnonymousAWSCredentials;
-import com.amazonaws.cognito.clientcontext.data.UserContextDataProvider;
-import com.amazonaws.mobile.config.AWSConfiguration;
 import com.amazonaws.provider.handlers.AuthenticationHandler;
 import com.amazonaws.provider.handlers.SignUpHandler;
 import com.amazonaws.provider.util.CognitoPinpointSharedContext;
@@ -11,14 +9,15 @@ import com.amazonaws.provider.util.CognitoSecretHash;
 import com.amazonaws.regions.Regions;
 import com.amazonaws.services.AmazonCognitoIdentityProvider;
 import com.amazonaws.services.AmazonCognitoIdentityProviderClient;
-import com.amazonaws.services.model.AnalyticsMetadataType;
-import com.amazonaws.services.model.AttributeType;
-import com.amazonaws.services.model.SignUpRequest;
-import com.amazonaws.services.model.SignUpResult;
-import com.amazonaws.services.model.UserContextDataType;
+import com.amazonaws.services.cognitoidp.model.AnalyticsMetadataType;
+import com.amazonaws.services.cognitoidp.model.AttributeType;
+import com.amazonaws.services.cognitoidp.model.SignUpRequest;
+import com.amazonaws.services.cognitoidp.model.SignUpResult;
+import com.amazonaws.services.cognitoidp.model.UserContextDataType;
 
 import org.json.JSONObject;
 
+import javax.naming.Context;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;

@@ -24,12 +24,8 @@ import com.amazonaws.provider.exceptions.CognitoInternalErrorException;
 import com.amazonaws.provider.exceptions.CognitoNotAuthorizedException;
 import com.amazonaws.provider.exceptions.CognitoParameterInvalidException;
 import com.amazonaws.provider.handlers.GenericHandler;
-import com.amazonaws.services.model.DeviceType;
-import com.amazonaws.services.model.ForgetDeviceRequest;
-import com.amazonaws.services.model.GetDeviceRequest;
-import com.amazonaws.services.model.GetDeviceResult;
-import com.amazonaws.services.model.UpdateDeviceStatusRequest;
-import com.amazonaws.services.model.UpdateDeviceStatusResult;
+import com.amazonaws.services.cognitoidp.model.DeviceType;
+import com.amazonaws.services.cognitoidp.model.GetDeviceResult;
 
 import java.util.Date;
 
